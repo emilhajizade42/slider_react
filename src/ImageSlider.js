@@ -65,9 +65,9 @@ const ImageSlider = ({ slides }) => {
     ...slideStyles,
     backgroundImage: `url(${slides[currentIndex].url})`,
   };
-// setInterval(() => {
-//     goToNext()
-// }, 3000);
+setInterval(() => {
+    goToNext()
+}, 3000);
   return (
     <div style={sliderStyles}>
       <div>
