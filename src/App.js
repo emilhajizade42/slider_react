@@ -18,9 +18,10 @@ function App() {
       axios.get("https://coffee.alexflipnote.dev/random")
       .then(res=>item.url = res.data)
 
-      setrender(!render)
-      }, 3000);
-    })
+    });
+    setrender(!render)
+
+  },3000)
   const containerStyles = {
     width: "500px",
     height: "280px",
